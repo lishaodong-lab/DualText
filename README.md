@@ -31,10 +31,10 @@ Depending on the dataset you intend to train/evaluate follow the instructions be
 ## Text Prompt Setup
 1. In order to accelerate the running speed of the code, use `data/pre_process/pre_process_oog.py` script to obtain the Object name, Occlusion label, and Grasping state, and save them in `YCB_Train_OGG.json`.
    * We have provided the relevant demo data in `data/demo/Demo_DexYCB_Train.json`, and its specific storage format follows the official dataset.
-   * 
+
 2. Use `data/pre_process/pre_process_text.py` to obtain the dual-scale structured text prompt and the corresponding text features.
    * During the operation, the relevant paths need to be modified to your own real path.
-   * 
+
 ## Evaluation
 Depending on the dataset you intend to evaluate follow the instructions below. 
 
